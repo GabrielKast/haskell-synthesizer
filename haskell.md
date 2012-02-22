@@ -4,11 +4,11 @@
 [Getting started with MIDI](http://www.lesbell.com.au/Home.nsf/b8ec57204f60dfcb4a2568c60014ed0f/c4b39482154feb03ca256f8100150ad9?OpenDocument) was my primary source: It has detailed
 instructions on how to get MIDI played on a Linux box. 
 
-Install a midi file player. This actually came out-of-the-box in my
+Install a midi file player (aplaymidi). This actually came out-of-the-box in my
 linux distro (Xubuntu 11.10):
    
 ~~~~
-$ sudo apt-get install aplaymidi
+$ sudo apt-get install alsa-utils
 ~~~~
 
 Install a software MIDI synthesizer (I don't have and don't know how
